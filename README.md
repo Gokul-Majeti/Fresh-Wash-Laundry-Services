@@ -18,9 +18,9 @@ Logo on the left, Username on the right
 
 Split into two parts:
 
-Left: Heading, description & "Book a Service Today" button
+* Left: Heading, description & "Book a Service Today" button
 
-Right: Laundry-themed image
+* Right: Laundry-themed image
 
 Smooth scroll to booking section on button click
 
