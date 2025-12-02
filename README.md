@@ -28,38 +28,38 @@ Smooth scroll to booking section on button click
 
 Achievements section showing stats:
 
-15+ Laundry Services
+* 15+ Laundry Services
 
-240+ Happy Customers
+* 240+ Happy Customers
 
-2+ Years of Experience
+* 2+ Years of Experience
 
 🧾 Booking Services Section
 Left Side
 
 List of services with:
 
-Service name
+* Service name
 
-Price
+* Price
 
-Add Item & Remove Item buttons
+* Add Item & Remove Item buttons
 
-Message prompting users to add items
+* Message prompting users to add items
 
 Right Side
 
-Cart panel dynamically updates with selected services
+* Cart panel dynamically updates with selected services
 
-Total amount displayed at the bottom
+* Total amount displayed at the bottom
 
 Book Now form with:
 
-Full Name
+* Full Name
 
-Email
+* Email
 
-Phone Number
+* Phone Number
 
 Confirmation message after booking:
 “Thank you for booking the service! We will get back to you soon.”
@@ -74,37 +74,37 @@ Sends order details to your registered email upon clicking Book Now
 
 Highlights the unique selling points:
 
-Premium Services
+* Premium Services
 
-Quick Support
+* Quick Support
 
-Timely Delivery
+* Timely Delivery
 
-Affordable Prices
+* Affordable Prices
 
 📰 Newsletter Subscription
 
-Users enter:
+* Users enter:
 
-Full Name
+* Full Name
 
-Email
+* Email
 
-Subscribe button for promotions & updates
+* Subscribe button for promotions & updates
 
 🦶 Footer
 
 Includes:
 
-Logo
+* Logo
 
-About Us link
+* About Us link
 
-Important links
+* Important links
 
-Contact Us
+* Contact Us
 
-Social media icons
+* Social media icons
 
 🛠️ Tech Stack
 
@@ -118,12 +118,12 @@ EmailJS for email automation
 
 ✨ How It Works
 
-User explores services
+* User explores services
 
-Adds items to the cart
+* Adds items to the cart
 
-Enters details and clicks "Book Now"
+* Enters details and clicks "Book Now"
 
-EmailJS sends an automated email
+* EmailJS sends an automated email
 
-User receives confirmation on screen
+* User receives confirmation on screen
