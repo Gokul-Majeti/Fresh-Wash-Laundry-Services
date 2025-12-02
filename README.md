@@ -26,7 +26,7 @@ Smooth scroll to booking section on button click
 
 📊 Service Overview
 
-Full-width section showing stats:
+Achievements section showing stats:
 
 15+ Laundry Services
 
