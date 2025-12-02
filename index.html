@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FreshWash Laundry Service offers fast and reliable laundry care with seamless online booking. Explore services, schedule pickups, add items to your cart, and receive instant email confirmations using our user-friendly web application." />
+    <title>FreshWash Laundry Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <header class="header">
+        <div class="container headerdiv">
+            <nav class="navbar">
+                <div >
+                    <img src="images/logo.png" alt="logo-image" class="logo">
+                </div>
+                <div class="sectionsmenu">
+                    <ul>
+                        <li><a href="#hero" class="sectionsmenulinks">Home</a></li>
+                        <li><a href="#bookservices" class="sectionsmenulinks">Services</a></li>
+                        <li><a href="#description" class="sectionsmenulinks">About Us</a></li>
+                        <li><a href="#newsletter" class="sectionsmenulinks">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="username">  
+                    <p>Username</p>
+                </div>
+                
+            </nav>
+            <hr>
+        </div>
+    </header>
+    <section id ="hero">
+        <div class="container herodiv">
+            <div class="herodescription">
+                <h1>Revitalize Your Clothes with Expert <span>Laundry Services!</span> </h1>
+                <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshenss of your clothes today</p>
+                <a href="#bookservices" class="btn" >Book a service today</a>
+            </div>
+            <div class="heroimage">
+                <img src="images/laundry.png" alt="laundry image" class="laundryimage">
+            </div>
+        </div>
+    </section>
+    <section class="achievements">
+        <div class="container achievementssection">
+            <div class="achievementsheading">
+                <h2>Our Achievements</h2    >
+            </div>
+            <div class="service-overview">
+                <p>15 +</p>
+                <p>Laundry Services</p>
+                
+            </div>
+            
+
+            <div class="service-overview">
+                <p>240+</p>
+                <p>Happy Customers</p>
+            </div>
+            
+
+            <div class="service-overview">
+                <p>2+ Yrs</p>
+                <p>Experience</p>
+            </div>
+        </div>
+    </section>
+    <section id="bookservices">
+        <div class="container bookservices">
+            <div class="bookservicesleft">
+                <h2>Our Services</h2>
+                
+                <p>Click On The Add To Cart Button To Add The Services To Your Cart</p>
+                <p style="border-bottom: 1px solid gray;"></p>
+                <hr>
+                <div class="services" >
+                
+                    <div class="service" data-name="Dry Cleaning" data-price="200">
+                        <span> <img src="images/shirt.png" alt="dry clean image"> Dry Cleaning &ndash;<span> &#8377;200.00</span> </span>
+                        <button class="toggle">Add Item &#8853;</button>
+                    </div>
+                    <div class="service" data-name="Wash & Fold" data-price="100">
+                        <span><img src="images/wash.png" alt="washfoldimage"> Wash & Fold &ndash; <span>&#8377;100.00</span></span>
+                        <button class="toggle">Add Item &#8853;</button>
+                    </div>
+                    <div class="service" data-name="Ironing" data-price="30">
+                        <span><img src="images/iron.png" alt="ironimage"> Ironing &ndash; <span>&#8377;30.00</span></span>     
+                        <button class="toggle">Add Item &#8853;</button>
+                    </div>
+                    <div class="service" data-name="Stain Removal" data-price="500">
+                        <span><img src="images/stain-remover.png" alt="stainimage"> Stain Removal &ndash; <span>&#8377;500.00</span></span>    
+                        <button class="toggle">Add Item &#8853;</button>
+                    </div>
+                    <div class="service" data-name="Leather & Suede Cleaning" data-price="999">
+                        <span><img src="images/leather.png" alt="leatherimage"> Leather & Suede Cleaning &ndash; <span>&#8377;999.00</span></span>    
+                        <button class="toggle">Add Item &#8853;</button>
+                    </div>
+                    <div class="service" data-name="Wedding Dress Cleaning" data-price="2800">
+                        <span><img src="images/groom-dress.png" alt="weddingdressimage"> Wedding Dress Cleaning &ndash; <span>&#8377;2800.00 </span></span>    
+                        <button class="toggle">Add Item &#8853;</button>
+                    </div>                
+                    
+                </div>
+                <p style="border-bottom: 1px solid gray; padding-top:30px"></p>
+                <p style="padding-top:10px;color:blueviolet;">&#9432; Add the items to the cart and book now</p>
+            </div>
+            <div class="bookservicesright">
+                <div class="carttable">
+                    <h2>Added Items</h2>
+                        <div class="table-wrapper">
+                         <table>
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Service Name</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cartbody">
+                            <tr id="emptyRow">
+                                <td colspan="3" style="padding:20px; text-align:center; color:#555;">
+                                <p>&#9432;</p>
+                                <p>No Items Added</p>
+                                <p>Add items to the cart from the services bar</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                    </div>
+                    <div id="cartTotal">
+                        <h4><span>Total Amount</span> <span id="totalamount">&#8377;0</span></h4>
+                        
+                    </div>
+                   
+                    
+                    
+                </div>
+                <div class="bookdetails">
+                    <h3>Book Now</h3>
+                    <form action="">
+                        <div class="formquestion">
+                            <label for="bookname" name="name">Full Name:-</label>
+                        
+                            <input type="text" id="bookname" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="formquestion">
+                            <label for="bookemail" name="email">Email ID:-</label>
+                        
+                            <input type="email" name="email" id="bookemail" placeholder="Enter your email" required>
+                        </div>   
+                        
+                        <div class="formquestion">
+                            <label for="bookphone" name="phone">Phone Number:-</label>
+    
+                            <input type="tel" id="bookphone" pattern="[0-9]{10}" name="phone" placeholder="Enter 10-digit phone number" required>
+                        </div>
+                        
+                        <input type="submit" class="bookbtn" value="Book Now">
+                        
+                    </form>
+
+                </div>
+                <p class="message"></p>
+            </div>
+        </div>
+    </section>
+    <section id="description">
+        <div class="container description">
+            <div class="quality servicespremium">
+                <div class="quality-image">
+                    <img src="images/quality-service.png" alt="services image">
+                </div>
+                <div class="quality-description">
+                    <h3>Premium Services</h3>
+                    <p>Elevate your wardrobe with our meticulous dry cleaning ensuring garments look and feel as good as new.</p>
+                </div>
+            </div>
+            <div class="quality">
+                <div class="quality-image">
+                    <img src="images/support.png" alt="support image">
+                </div>
+                <div class="quality-description">
+                    <h3>Quick Support</h3>
+                    <p>We're committed to providing prompt solutions to ensure your experience is smooth and worry-free.</p>
+                </div>
+            </div>
+            <div class="quality">
+                <div class="quality-image">
+                    <img src="images/delivery.png" alt="delivery image">
+                </div>
+                <div class="quality-description">
+                    <h3>Hassle Free Delivery</h3>
+                    <p>Enjoy seamless service with our convenient pickup and delivery options tailored to your schedule.</p>
+                </div>
+            </div>
+                        <div class="quality affordable">
+                <div class="quality-image">
+                    <img src="images/affordable.png" alt="affordable image">
+                </div>
+                <div class="quality-description">
+                    <h3>Affordable Prices</h3>
+                    <p>Experience exceptional care without breaking the bank - our affordable prices make laundry day stress-free.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="container news">
+            <div class="newsheading">
+                <h1>Subscribe to our newsletter.</h1>
+            </div>  
+            <div class="newsform">
+                <form id="newsform">
+                    <input type="text" name="newsname" id="newsname" placeholder="Full Name">
+                    <input type="email" name="newsemail" id="newsemail" placeholder="Email">
+                    <input type="submit" value="Subscribe" id="subscribebtn">
+                    <p style="color:white" id="subscribemsg"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footersection">
+        <div class="container footersection">
+            <div class="logofooter  ">
+                <img src="images/logo.png" alt="logoimage">
+                <h3><a href="#description">About Us</a></h3>
+                <p>From dirty to dazzling. Affordable, professional, and trusted laundry care at your fingertips.</p></p>
+            </div>
+            <div class="importantlinks">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="#description">About us</a></li>
+                    <li><a href="#newsletter">Contact us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <a href="mailto:mail@site.com">mail@site.com</a>
+                <a href="tel:+919876543210">+919876543210</a>
+            </div>
+            <div class="follow">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                <a href="#" alt="instalogo"><ion-icon name="logo-instagram" class="insta"></ion-icon></a>
+                <a href="#" alt="fblogo"><ion-icon name="logo-facebook" class="fb"></ion-icon></a>
+                <a href="#" alt="twitterlogo"><ion-icon name="logo-twitter" class="twitter"></ion-icon></a>
+                <a href="#" alt="youtubelogo"><ion-icon name="logo-youtube" class="youtube"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    emailjs.init("OeOXKeugacLImAKYe");  
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
