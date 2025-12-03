@@ -121,7 +121,7 @@
     }
     .heroimage{
         transition:all 0.3s ease;
-        animation:slideright 1s ease;
+
     }
     .heroimage:hover{
         transform:scale(1.05);
@@ -148,16 +148,7 @@
             opacity:1;
         }
     }
-    @keyframes slideright {
-        from{
-            opacity:0;
-            transform:translateX(500px);
-        }
-        to{
-            transform:translateX(0);
-            opacity:1;
-        }
-    }
+
     .btn{
         text-decoration: none;
         color:white;
@@ -300,7 +291,7 @@
         flex-direction: column;
         gap:10px;
         color: rgba(0, 0, 0, 0.747);
-        animation:slideright 1s ease;   
+        
     }
     input{
         padding:10px 15px;
