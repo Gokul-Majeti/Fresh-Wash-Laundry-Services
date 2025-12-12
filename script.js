@@ -80,14 +80,14 @@
         return;
         }
 
-        // Email validation (regex)
+        
         let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailPattern.test(email)) {
             message.innerText = "❌ Please enter a valid email address.";
             return;
         }
 
-        // Phone number validation (10 digits)
+        
         if (!/^[0-9]{10}$/.test(phone)) {
             message.innerText = "❌ Phone number must be 10 digits.";
             return;
@@ -168,3 +168,4 @@
         });
     });
 });
+
